@@ -1,4 +1,5 @@
 package linearRegression;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -21,8 +22,6 @@ public class DataLoader {
 			e.printStackTrace();
 		}
 	}
-
-
 
 	private void addDataEntry(String[] data) {
 		x.add(Double.parseDouble(data[0]));
